@@ -24,12 +24,12 @@ const App = () => {
 
   return (
 
-    <div>
+    <>
       <Timer time={time} />
       <Button action={() => setStart(true)}>Start</Button>
       <Button action={() => setStart(false)}>Stop</Button>
       <Button action={() => {setTime(0); setStart(false);}}>Reset</Button>
-    </div>  
+    </>  
   );
 
 }
